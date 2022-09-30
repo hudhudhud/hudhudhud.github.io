@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>单个字段明细</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    
+    <meta name="description" content="">
+    
+    <link rel="preload" href="/assets/css/0.styles.479b392f.css" as="style"><link rel="preload" href="/assets/js/app.1eb56e2a.js" as="script"><link rel="preload" href="/assets/js/2.2512f3ec.js" as="script"><link rel="preload" href="/assets/js/14.ac2771fb.js" as="script"><link rel="prefetch" href="/assets/js/10.b33da0a4.js"><link rel="prefetch" href="/assets/js/11.2ee3f7db.js"><link rel="prefetch" href="/assets/js/12.11daccbf.js"><link rel="prefetch" href="/assets/js/13.310a7121.js"><link rel="prefetch" href="/assets/js/15.ba80a3e0.js"><link rel="prefetch" href="/assets/js/16.0c95b423.js"><link rel="prefetch" href="/assets/js/17.8c12e2f2.js"><link rel="prefetch" href="/assets/js/18.a919529b.js"><link rel="prefetch" href="/assets/js/19.e5b403cd.js"><link rel="prefetch" href="/assets/js/20.51c55c40.js"><link rel="prefetch" href="/assets/js/21.181e4d62.js"><link rel="prefetch" href="/assets/js/22.d8c956c9.js"><link rel="prefetch" href="/assets/js/23.f8f8c002.js"><link rel="prefetch" href="/assets/js/24.c0ae1ce6.js"><link rel="prefetch" href="/assets/js/25.99aaf157.js"><link rel="prefetch" href="/assets/js/26.58ad0f01.js"><link rel="prefetch" href="/assets/js/3.77fbe2cb.js"><link rel="prefetch" href="/assets/js/4.62ece8a9.js"><link rel="prefetch" href="/assets/js/5.7a06ed6b.js"><link rel="prefetch" href="/assets/js/6.4434b2dc.js"><link rel="prefetch" href="/assets/js/7.637b6448.js"><link rel="prefetch" href="/assets/js/8.7155e777.js"><link rel="prefetch" href="/assets/js/9.0cf3e963.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.479b392f.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/egg.png" alt="" class="logo"> <!----></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/pages/flowFormAPI.html" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="https://hudhudhud.github.io" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/pages/flowFormAPI.html" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="https://hudhudhud.github.io" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/pages/flowFormAPI.html" class="sidebar-link">全局对象/方法</a></li><li><a href="/pages/input.html" class="sidebar-link">输入框</a></li><li><a href="/pages/textarea.html" class="sidebar-link">多文本输入框</a></li><li><a href="/pages/picker.html" class="sidebar-link">下拉选择</a></li><li><a href="/pages/dateTimePicker.html" class="sidebar-link">时间选择</a></li><li><a href="/pages/radio.html" class="sidebar-link">单选</a></li><li><a href="/pages/checkbox.html" class="sidebar-link">单个复选框</a></li><li><a href="/pages/fileUpload.html" class="sidebar-link">文件上传</a></li><li><a href="/pages/dateTimePicker.html" class="sidebar-link">时间选择</a></li><li><a href="/pages/searchSelect.html" class="sidebar-link">搜索选择</a></li><li><a href="/pages/cascaderselect.html" class="sidebar-link">级联选择</a></li><li><a href="/pages/deptSelect.html" class="sidebar-link">部门选择（数据自定义）</a></li><li><a href="/pages/detail.html" aria-current="page" class="active sidebar-link">明细组件</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/pages/detail.html#单个字段明细" class="sidebar-link">单个字段明细</a></li><li class="sidebar-sub-header"><a href="/pages/detail.html#多个字段明细" class="sidebar-link">多个字段明细</a></li><li class="sidebar-sub-header"><a href="/pages/detail.html#弹出框明细" class="sidebar-link">弹出框明细</a></li><li class="sidebar-sub-header"><a href="/pages/detail.html#轮播明细" class="sidebar-link">轮播明细</a></li><li class="sidebar-sub-header"><a href="/pages/detail.html#表格明细" class="sidebar-link">表格明细</a></li></ul></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h2 id="单个字段明细"><a href="#单个字段明细" class="header-anchor">#</a> 单个字段明细</h2> <div class="language-json extra-class"><div class="highlight-lines"><br><br><br><br><div class="highlighted"> </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div><pre class="language-json"><code><span class="token punctuation">{</span>
+    <span class="token property">&quot;type&quot;</span><span class="token operator">:</span><span class="token string">&quot;detail&quot;</span><span class="token punctuation">,</span>   <span class="token comment">//必填，组件类型</span>
+    <span class="token property">&quot;key&quot;</span><span class="token operator">:</span><span class="token string">&quot;oneDetail&quot;</span><span class="token punctuation">,</span> <span class="token comment">//必填，字段名称,获取值方法flowFormAPI.getParamValue('oneDetail')</span>
+    <span class="token property">&quot;title&quot;</span><span class="token operator">:</span><span class="token string">&quot;1个字段&quot;</span><span class="token punctuation">,</span> <span class="token comment">//明细大标题</span>
+    <span class="token property">&quot;mode&quot;</span><span class="token operator">:</span><span class="token string">&quot;simple&quot;</span><span class="token punctuation">,</span><span class="token comment">//必填，明细模式： simple:1个字段，mutiple:多个字段，pop:弹出页面，slider:轮播模式，table:表格模式</span>
+    <span class="token property">&quot;addDisable&quot;</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span><span class="token comment">//是否禁止新增</span>
+    <span class="token property">&quot;editDisable&quot;</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span><span class="token comment">//是否禁止修改</span>
+    <span class="token property">&quot;delDisable&quot;</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span><span class="token comment">//是否禁止删除</span>
+    <span class="token property">&quot;show&quot;</span><span class="token operator">:</span><span class="token boolean">true</span><span class="token punctuation">,</span><span class="token comment">//是否显示，默认为true,</span>
+    <span class="token property">&quot;params&quot;</span><span class="token operator">:</span><span class="token punctuation">[</span><span class="token punctuation">{</span>  <span class="token comment">//明细内具体字段,组件对象数组</span>
+        <span class="token property">&quot;key&quot;</span><span class="token operator">:</span><span class="token string">&quot;school&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;type&quot;</span><span class="token operator">:</span><span class="token string">&quot;input&quot;</span> <span class="token punctuation">,</span>
+        <span class="token property">&quot;label&quot;</span><span class="token operator">:</span><span class="token string">&quot;学校&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;require&quot;</span><span class="token operator">:</span><span class="token boolean">true</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;value&quot;</span><span class="token operator">:</span><span class="token string">&quot;&quot;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;defaultValue&quot;</span><span class="token operator">:</span><span class="token punctuation">[</span>  <span class="token comment">//给定初始明细项</span>
+        <span class="token punctuation">{</span>
+            <span class="token property">&quot;school&quot;</span><span class="token operator">:</span><span class="token number">1</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+            <span class="token property">&quot;school&quot;</span><span class="token operator">:</span><span class="token number">2</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;afterAdd&quot;</span><span class="token operator">:</span><span class="token string">&quot;afterAdd&quot;</span><span class="token punctuation">,</span> <span class="token comment">//新增明细项之后的回调函数，函数接收两个参数：setParam重置明细项函数,以及新增的明细对象</span>
+    <span class="token property">&quot;afterDelete&quot;</span><span class="token operator">:</span><span class="token string">&quot;afterDelete&quot;</span><span class="token punctuation">,</span> <span class="token comment">//删除明细项之后的回调函数，函数接收两个参数：删除项序数,以及删除的明细对象 </span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="多个字段明细"><a href="#多个字段明细" class="header-anchor">#</a> 多个字段明细</h2> <div class="language-json extra-class"><div class="highlight-lines"><br><br><br><br><div class="highlighted"> </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div><pre class="language-json"><code><span class="token punctuation">{</span>
+    <span class="token property">&quot;type&quot;</span><span class="token operator">:</span><span class="token string">&quot;detail&quot;</span><span class="token punctuation">,</span>   <span class="token comment">//必填，组件类型</span>
+    <span class="token property">&quot;key&quot;</span><span class="token operator">:</span><span class="token string">&quot;twoDetail&quot;</span><span class="token punctuation">,</span> <span class="token comment">//必填，组件类型,获取值方法flowFormAPI.getParamValue('twoDetail')</span>
+    <span class="token property">&quot;title&quot;</span><span class="token operator">:</span><span class="token string">&quot;多个字段&quot;</span><span class="token punctuation">,</span><span class="token comment">//明细大标题</span>
+    <span class="token property">&quot;mode&quot;</span><span class="token operator">:</span><span class="token string">&quot;mutiple&quot;</span><span class="token punctuation">,</span><span class="token comment">//必填，明细模式： simple:1个字段，mutiple:多个字段，pop:弹出页面，slider:轮播模式，table:表格模式</span>
+    <span class="token property">&quot;detailTitleKey&quot;</span><span class="token operator">:</span> <span class="token string">&quot;school&quot;</span><span class="token punctuation">,</span><span class="token comment">//明细项标题字段，为明细项数据里的school字段</span>
+    <span class="token property">&quot;addDisable&quot;</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span><span class="token comment">//是否禁止新增</span>
+    <span class="token property">&quot;editDisable&quot;</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span><span class="token comment">//是否禁止修改</span>
+    <span class="token property">&quot;delDisable&quot;</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span><span class="token comment">//是否禁止删除</span>
+    <span class="token property">&quot;params&quot;</span><span class="token operator">:</span><span class="token punctuation">[</span><span class="token punctuation">{</span>
+        <span class="token property">&quot;key&quot;</span><span class="token operator">:</span><span class="token string">&quot;school&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;type&quot;</span><span class="token operator">:</span><span class="token string">&quot;input&quot;</span> <span class="token punctuation">,</span>
+        <span class="token property">&quot;label&quot;</span><span class="token operator">:</span><span class="token string">&quot;学校&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;require&quot;</span><span class="token operator">:</span><span class="token boolean">true</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;value&quot;</span><span class="token operator">:</span><span class="token string">&quot;123&quot;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">{</span>
+        <span class="token property">&quot;key&quot;</span><span class="token operator">:</span><span class="token string">&quot;class&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;type&quot;</span><span class="token operator">:</span><span class="token string">&quot;input&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;label&quot;</span><span class="token operator">:</span><span class="token string">&quot;专业&quot;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;defaultValue&quot;</span><span class="token operator">:</span><span class="token punctuation">[</span>  <span class="token comment">//给定初始明细项</span>
+        <span class="token punctuation">{</span><span class="token property">&quot;school&quot;</span><span class="token operator">:</span><span class="token string">&quot;1&quot;</span><span class="token punctuation">,</span><span class="token property">&quot;class&quot;</span><span class="token operator">:</span><span class="token string">&quot;2&quot;</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span><span class="token property">&quot;school&quot;</span><span class="token operator">:</span><span class="token string">&quot;3&quot;</span><span class="token punctuation">,</span><span class="token property">&quot;class&quot;</span><span class="token operator">:</span><span class="token string">&quot;4&quot;</span><span class="token punctuation">}</span>
+    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;afterAdd&quot;</span><span class="token operator">:</span><span class="token string">&quot;afterAdd&quot;</span><span class="token punctuation">,</span> <span class="token comment">//新增明细项之后的回调函数，函数接收两个参数：setParam重置明细项函数,以及新增的明细对象</span>
+    <span class="token property">&quot;afterDelete&quot;</span><span class="token operator">:</span><span class="token string">&quot;afterDelete&quot;</span><span class="token punctuation">,</span> <span class="token comment">//删除明细项之后的回调函数，函数接收两个参数：删除项序数,以及删除的明细对象</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="弹出框明细"><a href="#弹出框明细" class="header-anchor">#</a> 弹出框明细</h2> <div class="language-json extra-class"><pre class="language-json"><code><span class="token punctuation">{</span>
+    <span class="token property">&quot;type&quot;</span><span class="token operator">:</span><span class="token string">&quot;detail&quot;</span><span class="token punctuation">,</span> <span class="token comment">//必填，组件类型</span>
+    <span class="token property">&quot;key&quot;</span><span class="token operator">:</span><span class="token string">&quot;threeDetail&quot;</span><span class="token punctuation">,</span> <span class="token comment">//必填，字段名称,获取值方法flowFormAPI.getParamValue('threeDetail')</span>
+    <span class="token property">&quot;title&quot;</span><span class="token operator">:</span><span class="token string">&quot;复杂pop&quot;</span><span class="token punctuation">,</span><span class="token comment">//明细大标题</span>
+    <span class="token property">&quot;mode&quot;</span><span class="token operator">:</span><span class="token string">&quot;pop&quot;</span><span class="token punctuation">,</span><span class="token comment">//必填，明细模式： simple:1个字段，mutiple:多个字段，pop:弹出页面，slider:轮播模式，table:表格模式</span>
+    <span class="token property">&quot;addDisable&quot;</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span><span class="token comment">//是否禁止新增</span>
+    <span class="token property">&quot;editDisable&quot;</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span><span class="token comment">//是否禁止修改</span>
+    <span class="token property">&quot;delDisable&quot;</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span><span class="token comment">//是否禁止删除</span>
+    <span class="token property">&quot;params&quot;</span><span class="token operator">:</span><span class="token punctuation">[</span>
+        <span class="token punctuation">{</span>
+            <span class="token property">&quot;key&quot;</span><span class="token operator">:</span><span class="token string">&quot;school&quot;</span><span class="token punctuation">,</span>
+            <span class="token property">&quot;type&quot;</span><span class="token operator">:</span><span class="token string">&quot;input&quot;</span> <span class="token punctuation">,</span>
+            <span class="token property">&quot;label&quot;</span><span class="token operator">:</span><span class="token string">&quot;学校&quot;</span><span class="token punctuation">,</span>
+            <span class="token property">&quot;require&quot;</span><span class="token operator">:</span><span class="token boolean">true</span><span class="token punctuation">,</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+            <span class="token property">&quot;type&quot;</span><span class="token operator">:</span> <span class="token string">&quot;checkbox&quot;</span><span class="token punctuation">,</span>
+            <span class="token property">&quot;label&quot;</span><span class="token operator">:</span><span class="token string">&quot;是否参加&quot;</span><span class="token punctuation">,</span>
+            <span class="token property">&quot;value&quot;</span><span class="token operator">:</span><span class="token boolean">false</span><span class="token punctuation">,</span>
+            <span class="token property">&quot;key&quot;</span><span class="token operator">:</span><span class="token string">&quot;attend&quot;</span><span class="token punctuation">,</span>
+            <span class="token property">&quot;optionLabel&quot;</span><span class="token operator">:</span><span class="token string">&quot;是&quot;</span>
+        <span class="token punctuation">}</span>              
+    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;defaultValue&quot;</span><span class="token operator">:</span><span class="token punctuation">[</span>  <span class="token comment">//给定初始明细项</span>
+        <span class="token punctuation">{</span><span class="token property">&quot;school&quot;</span><span class="token operator">:</span><span class="token string">&quot;1&quot;</span><span class="token punctuation">,</span><span class="token property">&quot;attend&quot;</span><span class="token operator">:</span><span class="token boolean">true</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span><span class="token property">&quot;school&quot;</span><span class="token operator">:</span><span class="token string">&quot;2&quot;</span><span class="token punctuation">,</span><span class="token property">&quot;attend&quot;</span><span class="token operator">:</span><span class="token boolean">false</span><span class="token punctuation">}</span>
+    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;beforeSave&quot;</span><span class="token operator">:</span><span class="token string">&quot;beforeSave&quot;</span><span class="token punctuation">,</span><span class="token comment">//保存前执行该函数，返回true或false，返回true才会继续往下执行。</span>
+                            <span class="token comment">//若内部有异步操作，则使用&lt;a href=&quot;#api/asyncFunc&quot;&gt;flowFormAPI.asyncFunc&lt;/a&gt; </span>
+                            <span class="token comment">//该函数接收两个参数，具体如下例子。</span>
+                            
+    <span class="token property">&quot;afterAdd&quot;</span><span class="token operator">:</span><span class="token string">&quot;afterAdd&quot;</span><span class="token punctuation">,</span> <span class="token comment">//新增或修改明细项之后的回调函数，函数接收两个参数：setParam重置明细项函数,以及新增的明细对象                      </span>
+    <span class="token property">&quot;afterDelete&quot;</span><span class="token operator">:</span><span class="token string">&quot;afterDelete&quot;</span><span class="token punctuation">,</span> <span class="token comment">//删除明细项之后的回调函数，函数接收两个参数：删除项序数,以及删除的明细对象</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>例如：</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">function</span> <span class="token function">beforeSave</span><span class="token punctuation">(</span><span class="token parameter">setParam<span class="token punctuation">,</span>payload</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token comment">//setParam为重置当前明细项数据的函数</span>
+    <span class="token comment">//payload为数据对象，携带code、state、userId、params等数据信息，payload.params为当前明细项数据对象</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>payload<span class="token punctuation">.</span>params<span class="token punctuation">.</span>school <span class="token operator">==</span> <span class="token string">&quot;1&quot;</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token function">setParam</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token punctuation">{</span>
+            <span class="token literal-property property">key</span><span class="token operator">:</span> <span class="token string">'school'</span><span class="token punctuation">,</span>
+            <span class="token literal-property property">value</span><span class="token operator">:</span> <span class="token string">'2'</span>
+        <span class="token punctuation">}</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">return</span> <span class="token boolean">true</span> <span class="token comment">//返回true则明细弹框关闭</span>
+<span class="token punctuation">}</span>
+<span class="token comment">//内部有异步操作</span>
+<span class="token keyword">function</span> <span class="token function">beforeSave</span><span class="token punctuation">(</span><span class="token parameter">setParam<span class="token punctuation">,</span>payload</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token keyword">return</span> flowFormAPI<span class="token punctuation">.</span><span class="token function">asyncFunc</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">successFunc<span class="token punctuation">,</span>failFunc</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token comment">//用setTimeout模仿异步效果</span>
+        <span class="token function">setTimeout</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+            <span class="token comment">//异步返回结果</span>
+            <span class="token keyword">var</span> res <span class="token operator">=</span> <span class="token punctuation">{</span>
+                <span class="token literal-property property">success</span><span class="token operator">:</span><span class="token boolean">true</span><span class="token punctuation">,</span>
+                <span class="token literal-property property">data</span><span class="token operator">:</span><span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+                <span class="token literal-property property">errorInfo</span><span class="token operator">:</span><span class="token string">''</span>
+            <span class="token punctuation">}</span>
+            <span class="token keyword">if</span><span class="token punctuation">(</span>res<span class="token punctuation">.</span>success<span class="token punctuation">)</span><span class="token punctuation">{</span>
+                <span class="token function">successFunc</span><span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span> <span class="token comment">//此时将提交表单</span>
+            <span class="token punctuation">}</span>
+            <span class="token keyword">else</span><span class="token punctuation">{</span>
+                <span class="token function">failFunc</span><span class="token punctuation">(</span>res<span class="token punctuation">.</span>errorInfo<span class="token punctuation">)</span> <span class="token comment">//此时将取消提交表单，并弹出错误信息</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span><span class="token number">2000</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="轮播明细"><a href="#轮播明细" class="header-anchor">#</a> 轮播明细</h2> <div class="language-json extra-class"><div class="highlight-lines"><br><br><br><br><div class="highlighted"> </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div><pre class="language-json"><code><span class="token punctuation">{</span>
+    <span class="token property">&quot;type&quot;</span><span class="token operator">:</span><span class="token string">&quot;detail&quot;</span><span class="token punctuation">,</span> <span class="token comment">//必填，组件类型</span>
+    <span class="token property">&quot;key&quot;</span><span class="token operator">:</span><span class="token string">&quot;sliderDetail&quot;</span><span class="token punctuation">,</span><span class="token comment">//获取值方法flowFormAPI.getParamValue('sliderDetail')</span>
+    <span class="token property">&quot;title&quot;</span><span class="token operator">:</span> <span class="token string">&quot;轮播明细&quot;</span><span class="token punctuation">,</span><span class="token comment">//明细大标题</span>
+    <span class="token property">&quot;mode&quot;</span><span class="token operator">:</span> <span class="token string">&quot;slider&quot;</span><span class="token punctuation">,</span><span class="token comment">//必填，明细模式： simple:1个字段，mutiple:多个字段，pop:弹出页面，slider:轮播模式，table:表格模式</span>
+    <span class="token property">&quot;show&quot;</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;defaultValue&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">{</span>
+        <span class="token property">&quot;file&quot;</span><span class="token operator">:</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;department&quot;</span><span class="token operator">:</span> <span class="token string">&quot;2&quot;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+        <span class="token property">&quot;file&quot;</span><span class="token operator">:</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;department&quot;</span><span class="token operator">:</span> <span class="token string">&quot;4&quot;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;params&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span> <span class="token punctuation">{</span>
+        <span class="token property">&quot;show&quot;</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;label&quot;</span><span class="token operator">:</span> <span class="token string">&quot;所在部门&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;type&quot;</span><span class="token operator">:</span> <span class="token string">&quot;label&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;key&quot;</span><span class="token operator">:</span> <span class="token string">&quot;department&quot;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+        <span class="token property">&quot;readonly&quot;</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;show&quot;</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;label&quot;</span><span class="token operator">:</span> <span class="token string">&quot;附件&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;type&quot;</span><span class="token operator">:</span> <span class="token string">&quot;fileUpload&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;key&quot;</span><span class="token operator">:</span> <span class="token string">&quot;file&quot;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="表格明细"><a href="#表格明细" class="header-anchor">#</a> 表格明细</h2> <div class="language-json extra-class"><div class="highlight-lines"><br><br><br><br><div class="highlighted"> </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div><pre class="language-json"><code><span class="token punctuation">{</span>
+    <span class="token property">&quot;type&quot;</span><span class="token operator">:</span><span class="token string">&quot;detail&quot;</span><span class="token punctuation">,</span> <span class="token comment">//必填，组件类型</span>
+    <span class="token property">&quot;key&quot;</span><span class="token operator">:</span> <span class="token string">&quot;tableDetail&quot;</span><span class="token punctuation">,</span> <span class="token comment">//获取值方法flowFormAPI.getParamValue('tableDetail')</span>
+    <span class="token property">&quot;title&quot;</span><span class="token operator">:</span> <span class="token string">&quot;表格明细&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;mode&quot;</span><span class="token operator">:</span> <span class="token string">&quot;table&quot;</span><span class="token punctuation">,</span><span class="token comment">//必填，明细模式： simple:1个字段，mutiple:多个字段，pop:弹出页面，slider:轮播模式，table:表格模式</span>
+    <span class="token property">&quot;headerPosition&quot;</span><span class="token operator">:</span> <span class="token string">&quot;left&quot;</span><span class="token punctuation">,</span><span class="token comment">//表头位置，left：左边、top：上边，默认left</span>
+    <span class="token property">&quot;show&quot;</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;defaultValue&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">{</span>
+        <span class="token property">&quot;file&quot;</span><span class="token operator">:</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;department&quot;</span><span class="token operator">:</span> <span class="token string">&quot;2&quot;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+        <span class="token property">&quot;file&quot;</span><span class="token operator">:</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;department&quot;</span><span class="token operator">:</span> <span class="token string">&quot;4&quot;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;params&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">{</span>
+        <span class="token property">&quot;show&quot;</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;label&quot;</span><span class="token operator">:</span> <span class="token string">&quot;所在部门&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;type&quot;</span><span class="token operator">:</span> <span class="token string">&quot;label&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;key&quot;</span><span class="token operator">:</span> <span class="token string">&quot;department&quot;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+        <span class="token property">&quot;readonly&quot;</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;show&quot;</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;label&quot;</span><span class="token operator">:</span> <span class="token string">&quot;附件&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;type&quot;</span><span class="token operator">:</span> <span class="token string">&quot;fileUpload&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;key&quot;</span><span class="token operator">:</span> <span class="token string">&quot;file&quot;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span>
+</code></pre></div></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated:</span> <span class="time">9/19/2022, 3:50:23 PM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/pages/deptSelect.html" class="prev">
+        部门选择（数据自定义）
+      </a></span> <!----></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.1eb56e2a.js" defer></script><script src="/assets/js/2.2512f3ec.js" defer></script><script src="/assets/js/14.ac2771fb.js" defer></script>
+  </body>
+</html>
